@@ -16,10 +16,12 @@ body {
 }
 
 .header_name {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 15px;
 	color: white;
 	background-color: #4aaaa5;
 	text-align: center;
-	width: 220px;
+	width: 225px;
 	height: 36px;
 	padding: 20px;
 	margin: 0 0 0 30px;
@@ -61,6 +63,7 @@ a:link, a:visited, a:hover{
 }
 
 .about_title {
+	font-family: font-family: 'Georgia', Times, Times New Roman, serif;
 	color:  #4aaaa5;
 	font-size: 30px;
 	margin: 10px;
@@ -86,6 +89,7 @@ a:link, a:visited, a:hover{
 }
 
 .portfolio_content {
+	text-align: center;
 	background-color: #ffffff;
 	width: 650px;
 	height: 800px;
@@ -94,7 +98,45 @@ a:link, a:visited, a:hover{
 	float: left;
 }
 
+.portfolio_one {
+	float: left;
+}
 
+h3.portfolio_one {
+	background-color: #4aaaa5; 
+}
+
+.portfolio_two {
+
+}
+
+h3.portfolio_two {
+	background-color: #4aaaa5; 
+}
+
+.portfolio_three {
+	float: left;
+}
+
+h3.portfolio_three {
+	background-color: #4aaaa5; 
+}
+
+.portfolio_four {
+
+}
+
+h3.portfolio_four {
+	background-color: #4aaaa5; 
+}
+
+.portfolio_five {
+
+}
+
+h3.portfolio_five {
+	background-color: #4aaaa5; 
+}
 /*-------------  CONNECT  ---------------*/
 .connect {
 	background-color: #ffffff;
@@ -109,6 +151,7 @@ a:link, a:visited, a:hover{
 	color: #4aaaa5;
 	text-align: center;
 	border-bottom: 1px solid #dddddd;
+	padding-bottom: 15px;
 	margin: 10px;
 }
 
@@ -121,11 +164,7 @@ a:link, a:visited, a:hover{
 	bottom: 3px;
 	margin-left: 2.5px;
 }
-
-
-
 /*------------ COPYRIGHT -------------*/
-
 /*
 .copyright {
 	clear: both;
@@ -139,6 +178,9 @@ a:link, a:visited, a:hover{
 	margin: 0;
 	padding: 30px 15px 30px 15px;
 	border-top: 5px solid #4aaaa5;
-	position: absolute;
-	bottom: 0;
+	position:absolute;
+	bottom:0;
+	left:0;
+	right:0;
+	height:30px;
 }*/
