@@ -95,46 +95,50 @@ a:link, a:visited, a:hover{
 	border: 1px solid #dddddd;
 	margin: 30px 0 0 0;
 	float: left;
-}
-
-.portfolio_name {
-	color:#4aaaa5;
-	font-family: 'Georgia', Times, Times New Roman, serif;
-	padding: 10px;
-	border-bottom: 2px solid  #dddddd;
-	margin: 15px;
+	text-align: center;
 }
 
 .portfolio_title {
-	background-color: #4aaaa5;
-	color: #ffffff;
-	padding: 15px;
+	color:#4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 30px;
+	text-align: left;
+	padding: 10px;
+	border-bottom: 2px solid  #dddddd;
+	margin: 20px;
 }
 
 .portfolio_one {
+	width: 250px;
 	float: left;
 }
 
 .portfolio_two {
-		
+	width: 250px;
+	float: right;
 }
 
 .portfolio_three {
+	width: 250px;
 	float: left;
-	
 }
 
 .portfolio_four {
-	
+	width: 250px;
+	float: right;
 }
 
 .portfolio_five {
-
+	width: 250px;
+	
 }
 
-.portfolio_title {
+.portfolio_project {
 	background-color: #4aaaa5;
-	text-align: center;
+	color: #ffffff;
+	position: relative;
+	top: -70px;
+	padding: 15px;
 }
 /*--------------  CONTACT  --------------*/
 .contact_wrapper {
@@ -186,7 +190,6 @@ input[type=button], input[type=submit], input[type=reset] {
     text-decoration: none;
     cursor: pointer;
 }
-
 /*-------------  CONNECT  ---------------*/
 .connect {
 	background-color: #ffffff;
@@ -228,7 +231,7 @@ input[type=button], input[type=submit], input[type=reset] {
 	margin: 0;
 	padding: 30px 15px 30px 15px;
 	border-top: 5px solid #4aaaa5;
-	position:absolute;
+	position: relative;
 	bottom:0;
 	left:0;
 	right:0;
